@@ -1,0 +1,174 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#title {
+    background-color: rgb(226, 176, 160);
+    color: rgb(130, 25, 25);
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.con{
+    padding: 3% 15% 0%;
+
+}
+
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 8rem;
+    line-height: 1.5;
+}
+
+.heading {
+    font-size: 3.7rem;
+    margin-top: 5rem;
+}
+
+h2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.happy-cus {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+p {
+    color: rgb(89, 88, 88);
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu Condensed", sans-serif;
+    padding-left: 45px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.cat-img {
+    border-right-width: 100px;
+    padding-right: 0px;
+    left: 800px;
+    top: 120px;
+    margin-top: 2%;
+    margin-right: 10%;
+    transform: rotate(340deg);
+    position: absolute;
+    width: 25%;
+    border-radius: 25px;
+}
+
+#features {
+    padding: 7% 16%;
+    background-color: rgb(245, 232, 227);
+
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: rgb(226, 176, 160);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(130, 25, 25);
+}
+
+#testimonials { 
+    text-align: center;
+    background-color:rgba(224, 185, 172, 0.794);
+    color: rgb(41, 6, 6);
+    font-size: 1rem;
+}
+
+.carousel-inner {
+    padding: 7% 18%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-bottom: 3%;
+}
+
+#press {
+    background-color: rgba(224, 185, 172, 0.794);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 40px 30px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(245, 232, 227);
+}
+
+.pricing-col {
+    padding: 2% 2%;
+}
+
+.plan-price {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1028px) {
+    .cat-img {
+        position: static;
+        transform: rotate(0);
+        width: 64%;
+    }
+    #title {
+        padding-bottom: 30px;
+        text-align: center;
+     }
+
+    .heading {
+        margin-top: 2rem;
+    } 
+}
+
+#cta {
+    background-color: rgba(224, 185, 172, 0.794);
+    padding: 7% 15%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.last-line {
+    font-size: 3.5rem;
+}
+
+#footer {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(245, 232, 227);
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color: rgb(130, 25, 25);;
+}
+
